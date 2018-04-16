@@ -1,0 +1,104 @@
+html {
+  padding: 0;
+  margin: 0;
+  background: rgba(240, 240, 240, 0.835);
+  font-family: Ubuntu
+}
+
+.banner {
+  min-height: 400px;
+  width: 100%;
+  background: rgba(0, 132, 255, 0.883);
+  border-bottom: gold 5px solid;
+}
+
+.banner > .nav-bar {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.171);
+  color: rgb(31, 31, 31);
+  padding: 10px
+}
+
+.nav-bar > .logo {
+  background: black;
+  color: white;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 10px;
+  border-bottom: gold 3px solid;
+}
+
+.nav-bar > .nav-links {
+  position: absolute;
+  right: 40px;
+  display: inline-block
+}
+
+.nav-bar > .nav-links > li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: snow;
+  bottom: 10px;
+}
+
+.shout-out {
+  margin: 50px 0 0 20px;
+  color: white;
+  font-size: 1.2em;
+  width: 60%;
+  display: inline-block
+}
+
+.shout-out > .shout-out-text > h3 {
+  font-size: 2em;
+}
+
+.shout-out > .shout-out-text > .call-to-action {
+  margin-top: 30px;
+  background: black;
+  color: white;
+  border: 0;
+  font-size: 1.1em;
+  border-radius: 4px;
+  border-bottom: gold 2px solid;
+  height: 50px;
+  width: 170px;
+}
+
+/* Find out how to alighn image on the hero section*/
+.shout-out > .shout-out-image {
+  height: 100px;
+  width: 100px;
+  background: green;
+  float: right
+}
+
+.services {
+  width: 100%;  
+  padding: 20px;
+  text-align: center
+}
+
+.services > h3 {
+  text-align: center
+}
+
+.services > .service {
+  height: 250px;
+  width: 20%;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.24);
+  border-bottom: gold 2px solid;
+  display: inline-block;
+  margin: 20px
+}
