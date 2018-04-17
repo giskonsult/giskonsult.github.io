@@ -1,5 +1,18 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1111px) {
+ .col-4 {
+   width: 40%;
+ }
+}
+
+@media screen and (max-width: 575px) {
    .shout-out > .shout-out-text, .shout-out > .shout-out-image {
+    width: 100%;
+  }
+  .shout-out > .shout-out-image {
+    display: none
+  }
+
+  .col-4 {
     width: 100%;
   }
 }
