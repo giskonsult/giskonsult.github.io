@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+   .shout-out > .shout-out-text, .shout-out > .shout-out-image {
+    width: 100%;
+  }
+}

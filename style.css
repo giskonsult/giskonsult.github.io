@@ -71,8 +71,12 @@ body {
   margin: 50px 0 0 20px;
   color: white;
   font-size: 1.2em;
+  /*display: inline-block;*/
+}
+
+.shout-out > .shout-out-text {
   width: 60%;
-  display: inline-block
+  float: left
 }
 
 .shout-out > .shout-out-text > h3 {
@@ -81,6 +85,7 @@ body {
 
 .shout-out > .shout-out-text > .call-to-action {
   margin-top: 30px;
+  margin-bottom: 30px;
   background: black;
   color: white;
   border: 0;
@@ -93,10 +98,17 @@ body {
 
 /* Find out how to alighn image on the hero section*/
 .shout-out > .shout-out-image {
-  height: 100px;
-  width: 100px;
-  background: green;
-  float: right
+  float: left;
+  width: 40%;
+  max-width: 300px;
+  height: 300px;
+}
+
+/* Find out how to alighn image on the hero section*/
+.shout-out:after {
+  content: '';
+  clear: both;
+  display: table
 }
 
 .services {
