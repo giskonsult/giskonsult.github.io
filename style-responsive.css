@@ -5,6 +5,13 @@
 }
 
 @media screen and (max-width: 575px) {
+  .banner > .nav-bar {
+    height: 100px;
+  }
+  .nav-bar > .nav-links {
+    left: 0;
+    top: 45px;
+  }
    .shout-out > .shout-out-text, .shout-out > .shout-out-image {
     width: 100%;
   }
